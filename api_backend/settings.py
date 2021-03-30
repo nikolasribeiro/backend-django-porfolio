@@ -139,7 +139,7 @@ STATICFILES_DIRS = [
     BASE_DIR / "static",
     'img/porfolio/',
 ]
-
+ 
 
 #Cloudinary for save pictures in cloud
 cloudinary.config( 
