@@ -32,7 +32,14 @@ SECRET_KEY = os.getenv("PORFOLIO_API_BACKEND_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['http://localhost:3000/', 'http://localhost:8000', 'localhost']
+ALLOWED_HOSTS = [
+    'http://localhost:3000/', 
+    'http://localhost:8000', 
+    'localhost', 
+    'https://backend-porfolio.herokuapp.com/', 
+    'www.nicolasribeiro.com',
+    'http://www.nicolasribeiro.com'
+]
 
 
 # Application definition
