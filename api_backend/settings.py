@@ -38,7 +38,8 @@ ALLOWED_HOSTS = [
     'localhost', 
     'https://backend-porfolio.herokuapp.com/', 
     'www.nicolasribeiro.com',
-    'http://www.nicolasribeiro.com'
+    'http://www.nicolasribeiro.com',
+    'backend-porfolio.herokuapp.com'
 ]
 
 
